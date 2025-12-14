@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['usuario_email'] = $user['email'];
             
             // 4. Redirigir a la página principal después de un inicio exitoso
-            header("Location: camaraswed.php"); 
+            header("Location: camaraswed.html"); 
             exit(); 
         } else {
             // Contraseña incorrecta
