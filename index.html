@@ -330,6 +330,11 @@
     </div>
 
     <script>
+        fetch('https://camarasweb-webbuena.crany0.easypanel.host/')
+        .then(r => r.json())
+        .then(d => console.log(d));
+            
+
         // Funcionalidad para mostrar/ocultar formularios
         document.addEventListener('DOMContentLoaded', function() {
             // Referencias a elementos
